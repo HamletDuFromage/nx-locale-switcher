@@ -1,0 +1,25 @@
+name: Build NX Locale Switcher
+
+on: 
+  push:
+  workflow_dispatch:
+
+jobs:
+  nx-locale-switcher:
+    runs-on: ubuntu-latest
+    container: hamletdufromage/devkita64_devkitarm
+    steps:
+    - uses: actions/checkout@v1
+
+    - name: update repo
+      run: |
+        git submodule update --init --recursive
+
+    - name: Building nx-locale-switcher
+      run: |
+        make -j$(nproc)
+
+    - uses: actions/upload-artifact@master
+      with:
+        name: nx-locale-switcher
+        path: nx-locale-switcher.nro
