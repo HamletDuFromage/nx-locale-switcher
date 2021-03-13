@@ -1,0 +1,60 @@
+{
+  "main" : {
+    "all_games_label": "All games",
+    "edited_games_label": "Edited configs",
+    "about": "About",
+    "tools": "Tools"
+  },
+  "about": {
+    "disclaimers": "Disclaimers",
+    "copyright": "NX Locale Switcher is licensed under GPL-3.0\n\u00a9 2021 HamletDuFromage",
+    "donate": "\ue016  Like the app? Consider donating to support my efforts: 'https://git.io/donate_homlet'"
+  },
+  "list": {
+    "edit_locale": "Edit locale",
+    "select_language": "Select language",
+    "set_language_to": "Language has been set to: ",
+    "select_region": "Select region",
+    "set_region_to": "Region has been set to: ",
+    "reset_settings": "Reset locale settings",
+    "settings_cleared": "Locale changes have been cleared",
+    "language": "Language",
+    "region": "Region",
+    "tools": "Tools"
+  },
+  "tools": {
+    "reset_all": "Reset all locales to system default",
+    "reload": "Reload game list"
+  },
+  "common": {
+    "all_done": "All done!"
+  },
+  "language": {
+    "en-US": "American English (en-US)",
+    "ja": "Japanese (ja)",
+    "fr": "French (fr)",
+    "de": "German (de)",
+    "it": "Italian (it)",
+    "es": "Spanish",
+    "zh-CN": "Simplified Chinese (zh-CN)",
+    "ko": "Korean (ko)",
+    "nl": "Dutch (nl)",
+    "pt": "Portuguese (pt)",
+    "ru": "Russian (ru)",
+    "zh-TW": "Traditional Chinese (zh-TW)",
+    "en-GB": "British English (en-GB)",
+    "fr-CA": "Canadian French (fr-CA)",
+    "es-419": "Latin American Spanish (es-419)",
+    "zh-Hant": "Traditional Chinese (zh-Hant)",
+    "zh-Hans": "Simplified Chinese (zh-Hans)"
+  },
+  "region": {
+    "jpn": "Japan (jpn)",
+    "usa": "North America (usa)",
+    "eur": "Europe (eur)",
+    "aus": "Australia (aus)",
+    "chn": "China (chn)",
+    "kor": "Korea (kor)",
+    "twn": "Taiwan (twn)"
+  }
+}

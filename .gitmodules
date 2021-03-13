@@ -1,0 +1,6 @@
+[submodule "lib/Simple-INI-Parser"]
+	path = lib/Simple-INI-Parser
+	url = git@github.com:HamletDuFromage/Simple-INI-Parser.git
+[submodule "lib/borealis"]
+	path = lib/borealis
+	url = git@github.com:HamletDuFromage/borealis.git
