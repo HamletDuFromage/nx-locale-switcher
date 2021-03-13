@@ -1,6 +1,7 @@
 # NX Locale Switcher
 
 ![releases](https://img.shields.io/github/downloads/HamletDuFromage/nx-locale-switcher/total)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/HamletDuFromage/nx-locale-switcher/Build%20NX%20Locale%20Switcher)
 ![tag](https://img.shields.io/github/v/release/HamletDuFromage/nx-locale-switcher)
 
 [![btc](https://img.shields.io/badge/BTC-1CoFc1bY5AHLP6Noe1zmqnJnp7ZWBxyo79-yellow)](https://github.com/HamletDuFromage/nx-locale-switcher#like-the-app)
