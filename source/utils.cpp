@@ -41,14 +41,18 @@ void resetSettings(std::string path) {
         delete ini;
         if(!std::filesystem::file_size(path)) {
             std::filesystem::remove(path);
+            if(std::filesystem::is_empty(path.substr(0, path.size() - 11))) {
+                rmdir(path.substr(0, path.size() - 11).c_str());
+            }
         }
     }
 }
 
 void resetAllSettings() {
     for (const auto & entry : std::filesystem::recursive_directory_iterator(ams_contents)) {
-        if(entry.path().string().substr(entry.path().string().size() - 10) == "config.ini") {
-            resetSettings(entry.path().string());
+        std::string path(entry.path().string());
+        if(path.substr(path.size() - 10) == "config.ini") {
+            resetSettings(path);
         }
     }
 }
