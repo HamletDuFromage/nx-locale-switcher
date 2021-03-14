@@ -11,7 +11,7 @@
 <img src = "https://raw.githubusercontent.com/HamletDuFromage/nx-locale-switcher/master/icon.jpg"\><br>
 </p>
 
-A Nintendo Switch homebrew app that allows you to see the language and region of your games on a per-title basis, directly from your console. 
+A Nintendo Switch homebrew app that allows you to change the language and region of your games on a per-title basis, directly from your console. 
 
 ## How to install
 Copy the `nx-locale-switcher.nro` executable to `/switch/` on your sdcard.
