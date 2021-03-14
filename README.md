@@ -7,7 +7,6 @@
 [![btc](https://img.shields.io/badge/BTC-1CoFc1bY5AHLP6Noe1zmqnJnp7ZWBxyo79-yellow)](https://github.com/HamletDuFromage/nx-locale-switcher#like-the-app)
 [![eth](https://img.shields.io/badge/ETH-0xf68f568e21a15934e0e9a6949288c3ca009140ba-purple)](https://github.com/HamletDuFromage/nx-locale-switcher#like-the-app)
 
-NX Locale Switcher
 <p align="center">
 <img src = "https://raw.githubusercontent.com/HamletDuFromage/nx-locale-switcher/master/icon.jpg"\><br>
 </p>
