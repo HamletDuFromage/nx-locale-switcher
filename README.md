@@ -12,7 +12,7 @@
 </p>
 
 A Nintendo Switch homebrew app that allows you to change the language and region of your games on a per-title basis, directly from your console. 
-This makes use of Atmosphère's [per-game settings overriding](https://github.com/Atmosphere-NX/Atmosphere/releases/tag/0.8.10).
+This makes use of Atmosphère's [per-game settings overriding](https://github.com/Atmosphere-NX/Atmosphere/releases/tag/0.8.10). As such, this **WILL NOT** work on any other CFW.
 
 ## How to install
 Copy the `nx-locale-switcher.nro` executable to `/switch/` on your sdcard.

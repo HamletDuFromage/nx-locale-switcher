@@ -41,8 +41,8 @@ void resetSettings(std::string path) {
         delete ini;
         if(!std::filesystem::file_size(path)) {
             std::filesystem::remove(path);
-            if(std::filesystem::is_empty(path.substr(0, path.size() - 11))) {
-                rmdir(path.substr(0, path.size() - 11).c_str());
+            if(std::filesystem::is_empty(path.substr(0, path.size() - 10))) {
+                rmdir(path.substr(0, path.size() - 10).c_str());
             }
         }
     }
