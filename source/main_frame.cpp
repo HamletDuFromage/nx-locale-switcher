@@ -29,6 +29,10 @@ MainFrame::MainFrame() : TabFrame()
     this->addTab("menus/main/tools"_i18n, new ToolsList());
 
     this->registerAction("" , brls::Key::B, [this] { return true; });
+    this->registerAction("menus/tools/reload"_i18n , brls::Key::Y, [this] {
+        brls::Application::pushView(new MainFrame());
+        return true; 
+    });
 }
 
 void MainFrame::PopulateLists() {
