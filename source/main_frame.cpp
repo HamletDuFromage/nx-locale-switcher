@@ -11,7 +11,7 @@ using namespace i18n::literals;
 
 MainFrame::MainFrame() : TabFrame()
 {
-    //this->setIcon("romfs:/gui_icon.png");
+    this->setIcon("romfs:/gui_icon.png");
     this->setTitle(std::string(APP_TITLE));
 
     this->setFooterText("v" + std::string(APP_VERSION));
