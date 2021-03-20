@@ -64,7 +64,7 @@ void MainFrame::PopulateLists() {
         }
         std::string tidstr = fmt::format("{:016X}", tid);
         this->allGames->AddEntry(std::string(langEntry->name), tidstr, "", "", controlData.icon, sizeof(controlData.icon));
-        std::string iniFile = ams_contents + tidstr + "/config.ini";
+        std::string iniFile = util::ams_contents + tidstr + "/config.ini";
         if(std::filesystem::exists(iniFile)) {
             std::string region;
             std::string language;

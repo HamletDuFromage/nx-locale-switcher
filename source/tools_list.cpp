@@ -10,8 +10,8 @@ ToolsList::ToolsList() :
 {
     resetAll = new brls::ListItem("menus/tools/reset_all"_i18n);
     resetAll->registerAction("brls/hints/ok"_i18n, brls::Key::A, [this] {
-        resetAllSettings();
-        showDialog("menus/common/all_done"_i18n);
+        util::resetAllSettings();
+        util::showDialog("menus/common/all_done"_i18n);
         return true;
     });
     this->addView(resetAll);

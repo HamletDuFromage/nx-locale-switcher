@@ -36,11 +36,20 @@ void GamesList::PopupMenu(std::string tid) {
     brls::TabFrame* appView = new brls::TabFrame();
 
     brls::List* languageList = new brls::List();
+    
+    brls::ListItem* languageItem = new brls::ListItem(fmt::format("menus/language/system"_i18n, i18n::getCurrentLocale()));
+    languageItem->registerAction("menus/list/select_language"_i18n, brls::Key::A, [this, tid] {
+        SetOption(tid, "override_config", "override_language", i18n::getCurrentLocale());
+        util::showDialog("menus/list/set_language_to"_i18n + fmt::format("menus/language/system"_i18n, i18n::getCurrentLocale()));
+        return true;
+    });
+    languageList->addView(languageItem);
+
     for(const auto& language : languages) {
-        brls::ListItem* languageItem = new brls::ListItem(language.first);
+        languageItem = new brls::ListItem(fmt::format(language.first, language.second));
         languageItem->registerAction("menus/list/select_language"_i18n, brls::Key::A, [this, language, tid] {
             SetOption(tid, "override_config", "override_language", language.second);
-            showDialog("menus/list/set_language_to"_i18n + language.first);
+            util::showDialog("menus/list/set_language_to"_i18n + language.first);
             return true;
         });
         languageList->addView(languageItem);
@@ -51,7 +60,7 @@ void GamesList::PopupMenu(std::string tid) {
         brls::ListItem* regionItem = new brls::ListItem(region.first);
         regionItem->registerAction("menus/list/select_region"_i18n, brls::Key::A, [this, region, tid] {
             SetOption(tid, "override_config", "override_region", region.second);
-            showDialog("menus/list/set_region_to"_i18n + region.first);
+            util::showDialog("menus/list/set_region_to"_i18n + region.first);
             return true;
         });
         regionList->addView(regionItem);
@@ -60,8 +69,8 @@ void GamesList::PopupMenu(std::string tid) {
     brls::List* toolsList = new brls::List();
     brls::ListItem* toolItem = new brls::ListItem("menus/list/reset_settings"_i18n);
     toolItem->registerAction("brls/hints/ok"_i18n, brls::Key::A, [this, tid] {
-        resetSettings(ams_contents + tid + "/config.ini");
-        showDialog("menus/list/settings_cleared"_i18n);
+        util::resetSettings(util::ams_contents + tid + "/config.ini");
+        util::showDialog("menus/list/settings_cleared"_i18n);
         return true;
     });
     toolsList->addView(toolItem);
@@ -73,8 +82,8 @@ void GamesList::PopupMenu(std::string tid) {
 }
 
 void GamesList::SetOption(std::string tid, std::string section, std::string key, std::string value) {
-    std::string path(ams_contents + tid + "/config.ini");
-    createTree(path);
+    std::string path(util::ams_contents + tid + "/config.ini");
+    util::createTree(path);
     simpleIniParser::Ini *ini = simpleIniParser::Ini::parseOrCreateFile(path);
     auto sec = ini->findOrCreateSection(section);
     for (auto const &option : sec->options) {
