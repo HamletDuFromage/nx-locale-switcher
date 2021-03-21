@@ -4,6 +4,7 @@
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/HamletDuFromage/nx-locale-switcher/Build%20NX%20Locale%20Switcher)
 ![tag](https://img.shields.io/github/v/release/HamletDuFromage/nx-locale-switcher)
 
+<a href="https://liberapay.com/HamletDuFromage/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a>
 [![btc](https://img.shields.io/badge/BTC-1CoFc1bY5AHLP6Noe1zmqnJnp7ZWBxyo79-yellow)](https://github.com/HamletDuFromage/nx-locale-switcher#like-the-app)
 [![eth](https://img.shields.io/badge/ETH-0xf68f568e21a15934e0e9a6949288c3ca009140ba-purple)](https://github.com/HamletDuFromage/nx-locale-switcher#like-the-app)
 
@@ -27,6 +28,7 @@ Copy the `nx-locale-switcher.nro` executable to `/switch/` on your sdcard.
 - [Nichole Mattera](https://github.com/NicholeMattera) for the Simple-INI-Parser library.
 
 ### Like the app?
+- Liberapay : <a href="https://liberapay.com/HamletDuFromage/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a>
 - BTC: 1CoFc1bY5AHLP6Noe1zmqnJnp7ZWBxyo79
 - ETH: 0xf68f568e21a15934e0e9a6949288c3ca009140ba
 - CHAINLINK: 0xf68f568e21a15934e0e9a6949288c3ca009140ba
