@@ -12,4 +12,5 @@ class MainFrame : public brls::TabFrame
     public:
         MainFrame();
         void PopulateLists();
+        void PopulatePage();
 };

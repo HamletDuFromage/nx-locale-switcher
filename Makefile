@@ -22,7 +22,7 @@ DATA		:=	data
 INCLUDES	:=	include
 APP_TITLE	:=	NX Locale Switcher
 APP_AUTHOR	:=	HamletDuFromage
-APP_VERSION :=  1.1.0
+APP_VERSION :=  1.1.1
 TARGET		:=	$(notdir $(CURDIR))
 
 ROMFS				:=	resources
