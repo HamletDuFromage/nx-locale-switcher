@@ -37,7 +37,7 @@ void GamesList::PopupMenu(std::string tid) {
 
     brls::List* languageList = new brls::List();
     
-    brls::ListItem* languageItem = new brls::ListItem(fmt::format("menus/language/system"_i18n, i18n::getCurrentLocale()));
+    brls::ListItem* languageItem = new brls::ListItem(fmt::format("menus/language/system_default"_i18n, i18n::getCurrentLocale()));
     languageItem->registerAction("menus/list/select_language"_i18n, brls::Key::A, [this, tid] {
         SetOption(tid, "override_config", "override_language", i18n::getCurrentLocale());
         util::showDialog("menus/list/set_language_to"_i18n + fmt::format("menus/language/system"_i18n, i18n::getCurrentLocale()));

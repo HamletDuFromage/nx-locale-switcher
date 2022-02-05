@@ -30,24 +30,7 @@
     "all_done": "All done!"
   },
   "language": {
-    "system": "Default system language ({})",
-    "en-US": "American English ({})",
-    "ja": "Japanese ({})",
-    "fr": "French ({})",
-    "de": "German ({})",
-    "it": "Italian ({})",
-    "es": "Spanish ({})",
-    "zh-CN": "Simplified Chinese ({})",
-    "ko": "Korean ({})",
-    "nl": "Dutch ({})",
-    "pt": "Portuguese ({})",
-    "ru": "Russian ({})",
-    "zh-TW": "Traditional Chinese ({})",
-    "en-GB": "British English ({})",
-    "fr-CA": "Canadian French ({})",
-    "es-419": "Latin American Spanish ({})",
-    "zh-Hant": "Traditional Chinese ({})",
-    "zh-Hans": "Simplified Chinese ({})"
+    "system_default": "System default"
   },
   "region": {
     "jpn": "Japan (jpn)",

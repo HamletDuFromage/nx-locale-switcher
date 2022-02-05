@@ -7,7 +7,7 @@ on:
 jobs:
   nx-locale-switcher:
     runs-on: ubuntu-latest
-    container: hamletdufromage/devkita64_devkitarm
+    container: devkitpro/devkita64
     steps:
     - uses: actions/checkout@v1
 

@@ -11,23 +11,23 @@ class GamesList : public brls::List
         brls::ListItem* listItem;
         bool empty = true;
         std::vector<std::pair<std::string, std::string>> languages{
-            std::make_pair("menus/language/en-US"_i18n, "en-US"),
-            std::make_pair("menus/language/ja"_i18n, "ja"),
-            std::make_pair("menus/language/fr"_i18n, "fr"),
-            std::make_pair("menus/language/de"_i18n, "de"),
-            std::make_pair("menus/language/it"_i18n, "it"),
-            std::make_pair("menus/language/es"_i18n, "es"),
-            std::make_pair("menus/language/zh-CN"_i18n, "zh-CN"),
-            std::make_pair("menus/language/ko"_i18n, "ko"),
-            std::make_pair("menus/language/nl"_i18n, "nl"),
-            std::make_pair("menus/language/pt"_i18n, "pt"),
-            std::make_pair("menus/language/ru"_i18n, "ru"),
-            std::make_pair("menus/language/zh-TW"_i18n, "zh-TW"),
-            std::make_pair("menus/language/en-GB"_i18n, "en-GB"),
-            std::make_pair("menus/language/fr-CA"_i18n, "fr-CA"),
-            std::make_pair("menus/language/es-419"_i18n, "es-419"),
-            std::make_pair("menus/language/zh-Hant"_i18n, "zh-Hant"),
-            std::make_pair("menus/language/zh-Hans"_i18n, "zh-Hans")
+            std::make_pair("American English (en-US)", "en-US"),
+            std::make_pair("日本語 (ja)", "ja"),
+            std::make_pair("Français (fr)", "fr"),
+            std::make_pair("Deutsch (de)", "de"),
+            std::make_pair("Italiano (it)", "it"),
+            std::make_pair("Español (es)", "es"),
+            std::make_pair("简体中文 (zh-CN)", "zh-CN"),
+            std::make_pair("한국어 (ko)", "ko"),
+            std::make_pair("Nederlands (nl)", "nl"),
+            std::make_pair("Português (pt)", "pt"),
+            std::make_pair("Русский (ru)", "ru"),
+            std::make_pair("繁體中文 (zh-TW)", "zh-TW"),
+            std::make_pair("English (Great Britain) (en-GB)", "en-GB"),
+            std::make_pair("Français (Canada) (fr-CA)", "fr-CA"),
+            std::make_pair("Español (Latinoamérica) (es-419)", "es-419"),
+            std::make_pair("Traditional Chinese (zh-Hant)", "zh-Hant"),
+            std::make_pair("Simplified Chinese (zh-Hans)", "zh-Hans")
         };
 
         std::vector<std::pair<std::string, std::string>> regions{
