@@ -1,0 +1,44 @@
+{
+  "main" : {
+    "all_games_label": "모든 게임",
+    "edited_games_label": "편집된 구성s",
+    "about": "정보",
+    "tools": "도구"
+  },
+  "about": {
+    "disclaimers": "면책 조항",
+    "copyright": "NX Locale 전환기는 GPL-3.0에 따라 라이센스가 부여됩니다.\n\u00a9 2021 HamletDuFromage",
+    "donate": "\ue016  앱이 마음에 드나요? 내 노력을 지원하기 위해 기부하는 것을 고려해 주세요: 'https://git.io/donate_homlet'"
+  },
+  "list": {
+    "edit_locale": "지역 편집",
+    "select_language": "언어 선택",
+    "set_language_to": "언어가 다음으로 설정되었습니다: ",
+    "select_region": "지역 선택",
+    "set_region_to": 지역이 다음으로 설정되었습니다: ",
+    "reset_settings": "지역 설정 재설정",
+    "settings_cleared": "지역 변경 지워짐",
+    "language": "언어",
+    "region": "지역",
+    "tools": "도구"
+  },
+  "tools": {
+    "reset_all": "모든 로케일을 시스템 기본값으로 재설정",
+    "reload": "게임 목록 새로고침"
+  },
+  "common": {
+    "all_done": "모두 완료되었습니다!"
+  },
+  "language": {
+    "system_default": "시스템 기본값"
+  },
+  "region": {
+    "jpn": "일본 (jpn)",
+    "usa": "북미 (usa)",
+    "eur": "유럽 (eur)",
+    "aus": "호주 (aus)",
+    "chn": "중국 (chn)",
+    "kor": "한국 (kor)",
+    "twn": "대만 (twn)"
+  }
+}
