@@ -1,7 +1,7 @@
 {
   "main" : {
     "all_games_label": "모든 게임",
-    "edited_games_label": "편집된 구성s",
+    "edited_games_label": "편집된 구성",
     "about": "정보",
     "tools": "도구"
   },
@@ -15,7 +15,7 @@
     "select_language": "언어 선택",
     "set_language_to": "언어가 다음으로 설정되었습니다: ",
     "select_region": "지역 선택",
-    "set_region_to": 지역이 다음으로 설정되었습니다: ",
+    "set_region_to": "지역이 다음으로 설정되었습니다: ",
     "reset_settings": "지역 설정 재설정",
     "settings_cleared": "지역 변경 지워짐",
     "language": "언어",
