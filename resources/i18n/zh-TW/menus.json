@@ -1,0 +1,44 @@
+{
+  "main" : {
+    "all_games_label": "所有遊戲",
+    "edited_games_label": "編輯配置",
+    "about": "關於",
+    "tools": "工具"
+  },
+  "about": {
+    "disclaimers": "免責聲明",
+    "copyright": "NX Locale Switcher 已獲得 GPL-3.0\n\u00a9 2021 HamletDuFromage 許可",
+    "donate": "\ue016 喜歡這個應用程序嗎？ 考慮捐款支持我的努力：'https://git.io/donate_homlet'"
+  },
+  "list": {
+    "edit_locale": "編輯語言環境",
+    "select_language": "選擇語言",
+    "set_language_to": "語言已設置為：",
+    "select_region": "選擇區域",
+    "set_region_to": "區域已設置為：",
+    "reset_settings": "重置區域設置",
+    "settings_cleared": "語言環境更改已清除",
+    "language": "語",
+    "region": "地區",
+    "tools": "工具"
+  },
+  "tools": {
+    "reset_all": "將所有語言環境重置為系統默認值",
+    "reload": "重新加載遊戲列表"
+  },
+  "common": {
+    "all_done": "全部做完！"
+  },
+  "language": {
+    "system_default": "系統默認"
+  },
+  "region": {
+    "jpn": "日本 (jpn)",
+    "usa": "北美 (usa)",
+    "eur": "歐洲 (eur)",
+    "aus": "澳大利亞 (aus)",
+    "chn": "中國 (chn)",
+    "kor": "韓國 (kor)",
+    "twn": "台灣 (twn)"
+  }
+}
