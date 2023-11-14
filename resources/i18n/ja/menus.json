@@ -1,0 +1,44 @@
+{
+  "main" : {
+    "all_games_label": "全てのゲーム",
+    "edited_games_label": "編集された設定",
+    "about": "このアプリについて",
+    "tools": "ツール"
+  },
+  "about": {
+    "disclaimers": "免責事項",
+    "copyright": "NX Locale SwitcherはGPL-3.0の下でライセンスされています\n\u00a9 2021 HamletDuFromage",
+    "donate": "\ue016 アプリが気に入りましたか? 私を支援するために寄付を検討してください: 'https://git.io/donate_homlet'"
+  },
+  "list": {
+    "edit_locale": "ロケールを編集",
+    "select_language": "言語を選択",
+    "set_language_to": "言語は次のように設定されています:",
+    "select_region": "リージョンを選択",
+    "set_region_to": "リージョンは次のように設定されています: ",
+    "reset_settings": "ロケール設定をリセットする",
+    "settings_cleared": "ロケールの変更がクリアされました",
+    "language": "言語",
+    "region": "リージョン",
+    "tools": "ツール"
+  },
+  "tools": {
+    "reset_all": "全てのロケールをシステムのデフォルトにリセット",
+    "reload": "ゲームリストを再読み込み"
+  },
+  "common": {
+    "all_done": "完了！"
+  },
+  "language": {
+    "system_default": "システムのデフォルト"
+  },
+  "region": {
+    "jpn": "日本 (jpn)",
+    "usa": "北米 (usa)",
+    "eur": "ヨーロッパ (eur)",
+    "aus": "オーストラリア (aus)",
+    "chn": "中国 (chn)",
+    "kor": "韓国 (kor)",
+    "twn": "台湾 (twn)"
+  }
+}

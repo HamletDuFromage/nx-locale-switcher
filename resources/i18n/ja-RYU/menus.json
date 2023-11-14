@@ -1,0 +1,44 @@
+{
+  "main" : {
+    "all_games_label": "まじりぬゲーム",
+    "edited_games_label": "編集さったる設定",
+    "about": "くぬアプリにちいてぃ",
+    "tools": "ツール"
+  },
+  "about": {
+    "disclaimers": "免責事項",
+    "copyright": "NX Locale SwitcherーGPL-3.0ぬしちゃうぅてぃライセンスさりとーいびーん\n\u00a9 2021 HamletDuFromage",
+    "donate": "\ue016 アプリぬ気に入やびたが? わん支援すんでぃ寄付検討しみそーれー: 'https://git.io/donate_homlet'"
+  },
+  "list": {
+    "edit_locale": "ロケール編集",
+    "select_language": "言語選択",
+    "set_language_to": "言語ー次ぬぐとぅ設定さりとーいびーん:",
+    "select_region": "リージョン選択",
+    "set_region_to": "リージョンー次ぬぐとぅ設定さりとーいびーん: ",
+    "reset_settings": "ロケール設定リセットすん",
+    "settings_cleared": "ロケールぬ変更ぬクリアさりやびたん",
+    "language": "言語",
+    "region": "リージョン",
+    "tools": "ツール"
+  },
+  "tools": {
+    "reset_all": "まじりぬロケールシステムぬデフォルトんかいリセット",
+    "reload": "ゲームリスト再読み込み"
+  },
+  "common": {
+    "all_done": "完了！"
+  },
+  "language": {
+    "system_default": "システムぬデフォルト"
+  },
+  "region": {
+    "jpn": "やまとぅ (jpn)",
+    "usa": "北米 (usa)",
+    "eur": "ヨーロッパ (eur)",
+    "aus": "オーストラリア (aus)",
+    "chn": "中国 (chn)",
+    "kor": "韓国 (kor)",
+    "twn": "台湾 (twn)"
+  }
+}
