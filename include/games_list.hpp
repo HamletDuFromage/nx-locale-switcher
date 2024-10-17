@@ -27,7 +27,8 @@ class GamesList : public brls::List
             std::make_pair("Français (Canada) (fr-CA)", "fr-CA"),
             std::make_pair("Español (Latinoamérica) (es-419)", "es-419"),
             std::make_pair("Traditional Chinese (zh-Hant)", "zh-Hant"),
-            std::make_pair("Simplified Chinese (zh-Hans)", "zh-Hans")
+            std::make_pair("Simplified Chinese (zh-Hans)", "zh-Hans"),
+            std::make_pair("Português (Brasil) (pt-BR)", "pt-BR")
         };
 
         std::vector<std::pair<std::string, std::string>> regions{
