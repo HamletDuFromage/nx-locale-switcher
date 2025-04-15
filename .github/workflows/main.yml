@@ -2,6 +2,11 @@ name: Build NX Locale Switcher
 
 on: 
   push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
   workflow_dispatch:
 
 jobs:
@@ -9,11 +14,9 @@ jobs:
     runs-on: ubuntu-latest
     container: devkitpro/devkita64
     steps:
-    - uses: actions/checkout@v1
-
-    - name: update repo
-      run: |
-        git submodule update --init --recursive
+    - uses: actions/checkout@v4
+      with:
+        submodules: recursive
 
     - name: Building nx-locale-switcher
       run: |

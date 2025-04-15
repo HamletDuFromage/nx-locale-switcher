@@ -7,19 +7,19 @@
   },
   "about": {
     "disclaimers": "免责声明",
-    "copyright": "NX Locale Switcher 已获得 GPL-3.0\n\u00a9 2021 HamletDuFromage 许可",
-    "donate": "\ue016 喜欢这个应用程序吗？ 考虑捐款支持我的努力：'https://git.io/donate_homlet'"
+    "copyright": "NX Locale Switcher 基于 GPL-3.0 协议授权\n\u00a9 2021 HamletDuFromage",
+    "donate": "\ue016 喜欢这个应用程序吗？请考虑捐款以支持我：'https://git.io/donate_homlet'"
   },
   "list": {
     "edit_locale": "编辑语言环境",
     "select_language": "选择语言",
     "set_language_to": "语言已设置为：",
-    "select_region": "选择地区",
+    "select_region": "选择区域",
     "set_region_to": "区域已设置为：",
     "reset_settings": "重置区域设置",
     "settings_cleared": "语言环境更改已清除",
-    "language": "语",
-    "region": "地区",
+    "language": "语言",
+    "region": "区域",
     "tools": "工具"
   },
   "tools": {
@@ -27,7 +27,7 @@
     "reload": "重新加载游戏列表"
   },
   "common": {
-    "all_done": "全部做完！"
+    "all_done": "全部完成！"
   },
   "language": {
     "system_default": "系统默认"
@@ -37,8 +37,8 @@
     "usa": "北美 (usa)",
     "eur": "欧洲 (eur)",
     "aus": "澳大利亚 (aus)",
-    "chn": "中国 (chn)",
+    "chn": "中国大陆 (chn)",
     "kor": "韩国 (kor)",
-    "twn": "台湾 (twn)"
+    "twn": "港台 (twn)"
   }
 }

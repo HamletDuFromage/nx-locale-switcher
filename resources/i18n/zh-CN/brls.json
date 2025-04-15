@@ -1,15 +1,15 @@
 {
     "hints": {
-        "ok": "好的",
-        "back": "后退",
-        "exit": "出口"
+        "ok": "确认",
+        "back": "返回",
+        "exit": "退出"
     },
 
     "crash_frame": {
-        "button": "好的"
+        "button": "确认"
     },
 
     "thumbnail_sidebar": {
-        "save": "救球"
+        "save": "保存"
     }
 }
